@@ -235,5 +235,4 @@ Expected result: no matches.
 ## AI Usage Disclosure
 
 The Lean formalization and this writeup were prepared with assistance from
-Codex and ChatGPT.  The final mathematical claims and public presentation remain
-the author's responsibility.
+Codex and ChatGPT.
