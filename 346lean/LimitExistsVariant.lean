@@ -1,18 +1,6 @@
 import Mathlib
 
 /-!
-Lean4Web full-proof paste file for the ratio-limit interpretation of Erdos 346.
-
-Paste this whole file into Lean 4 Web:
-
-  https://live.lean-lang.org/
-
-This is the full single-file proof, not a toy snippet.  It requires a Lean4Web
-environment with Mathlib available.  The same contents are tested locally in the
-project as `exp/346lean/346lean/LimitExistsVariant.lean`.
--/
-
-/-!
 # Erdős Problem 346, limit-exists interpretation
 
 This file formalizes an attempted Lean 4 proof of the limit-exists
@@ -6983,7 +6971,7 @@ theorem intended_problem_if_limit_exists_of_arbitrarilyLargeFiniteSingletonLeast
     hmono hpos hfinite hinfinite
     (arbitrarilyLargeFiniteSingletonSmallPrefixCover_of_leastLarge hleast) hexists
 
-/-- Short Lean4Web-facing name for the main theorem. -/
+/-- Short public-facing name for the main theorem. -/
 theorem main
     {a : ℕ → ℕ}
     (hmono : StrictMono a)
@@ -6996,7 +6984,7 @@ theorem main
   intended_problem_if_limit_exists
     hmono hpos hratioGap hfinite hinfinite hexists
 
-/-- Expanded statement for human inspection in Lean4Web.
+/-- Expanded statement for human inspection.
 
 This is definitionally the same theorem as `main`, but the three compact
 hypotheses `HasUniformRatioGap`, `FiniteDeletionComplete`, and
