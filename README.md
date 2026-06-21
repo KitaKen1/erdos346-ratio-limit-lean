@@ -1,6 +1,10 @@
 # Erdős 346 Ratio-Limit Lean4Web Proof
 
-Single-file Lean 4 Web formalization of the ratio-limit interpretation of Erdős Problem 346.
+
+Lean 4 formalization of the ratio-limit interpretation of Erdős Problem 346.
+
+👉 **[Click here to open the proof in Lean 4 Web](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Ferdos346-ratio-limit-lean%2Fmain%2Flean4web%2FLimitExistsVariantLean4Web.lean)**
+
 
 ## Result
 
